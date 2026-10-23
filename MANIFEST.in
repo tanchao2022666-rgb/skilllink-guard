@@ -1,0 +1,5 @@
+include CHANGELOG.md CONTRIBUTING.md SECURITY.md action.yml
+recursive-include tests *.py
+recursive-include examples *.md *.py *.yml
+recursive-include .github/workflows *.yml
+recursive-include tools *.py
